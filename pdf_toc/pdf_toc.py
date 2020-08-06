@@ -3,17 +3,6 @@
 import fitz
 import re
 
-# doc = fitz.Document("toc_pdf/ESLII_print12.pdf")
-
-# with open("pre_toc.toc", "w") as f:
-#     for i in range(9, 19):
-#         p = doc.loadPage(i)
-#         last_block = p.getText("text")
-#         last_block = last_block.replace(". ", "")
-#         last_block = last_block.replace(".\n", "")
-#         f.write(last_block)
-
-
 def format_chapter_name(chapter, name, page):
     return chapter + " " + name
 
