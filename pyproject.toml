@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pdf_toc"
+version = "0.1.0"
+description = ""
+authors = ["Matthias Moeller <m_moeller@mail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pymupdf = "^1.17.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+pdf_toc = 'pdf_toc.pdf_toc:main'
