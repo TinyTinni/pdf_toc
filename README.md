@@ -14,7 +14,7 @@ A [Poetry](https://python-poetry.org/) project file is provided.
 Define your ToC ([see below](#define-toc-file)) and call the script, either by using poetry
 
 ```bash
-poetry run pdf_toc input_file.pdf my_:_toc.toc output_file.pdf
+poetry run pdf_toc input_file.pdf my_toc.toc output_file.pdf
 ```
 
 or by executing the script:
